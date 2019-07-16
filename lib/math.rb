@@ -1,5 +1,7 @@
 def addition(num1, num2)
-
+  num1 = .to_f 
+  num2 = .to_f
+  puts (num1 + num2)
 end
 
 def subtraction(num1, num2)
